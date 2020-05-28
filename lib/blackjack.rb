@@ -15,8 +15,7 @@ def prompt_user
 end
 
 def get_user_input
-  answer = gets.chomp
-  answer
+  user_input = gets.chomp
 end
 
 def end_game
