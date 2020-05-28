@@ -1,4 +1,3 @@
-required 'pry'
 def welcome
   puts "Welcome to the Blackjack Table"
 end
@@ -48,7 +47,6 @@ end
 
 def invalid_command
   puts 'Please enter a valid command'
-  binding.pry
   prompt_user
   get_user_input
   
